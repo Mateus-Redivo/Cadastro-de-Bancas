@@ -9,7 +9,7 @@ int main()
 	setlocale(LC_ALL,"portuguese");
 	int Horas[0], Dias[0];
 	string Orientador[0], Membro1[0],Membro2[0], Projeto[0];
-	
+  
 	cout<<"Informe o nome do orientador: ";
 	cin>>Orientador[1];
 	cout<<"\nInforme o nome do primeiro convidado: ";
@@ -22,7 +22,7 @@ int main()
 		if(Horas[0] > 23)
 		{
 		   	system("cls");
-			cout<<"Informe uma hora válida";
+			cout<<"Informe uma hora vï¿½lida";
 		}	
 		else
 		{
@@ -31,7 +31,7 @@ int main()
 			if(Dias[0] > 31)
 			{
 				system("cls");
-				cout<<"Informe um dia válido";
+				cout<<"Informe um dia vï¿½lido";
 			}
 			else
 			{
@@ -41,3 +41,4 @@ int main()
 		}
   	   	
 }
+
