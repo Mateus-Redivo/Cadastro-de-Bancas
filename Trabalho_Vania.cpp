@@ -19,17 +19,17 @@ int main()
 	cin>>Membro2[1];
   
 	cout<<"\nInforme a hora: ";
-  >>>>>>> main
-		cin>>Horas[0];
-		if(Horas[0] > 23)
-		{
-		   	system("cls");
-			cout<<"Informe uma hora válida";
-		}
-		else
-		{
-      cout<<"\nInforme o dia: ";
-			cout<<"\nInforme o membro: ";
-  	  cout<<"\nDigite seu nome: ";
-		}	
+
+	cin>>Horas[0];
+	if(Horas[0] > 23)
+	{
+		system("cls");
+		cout<<"Informe uma hora válida";
+	}
+	else
+	{
+      		cout<<"\nInforme o dia: ";
+		cout<<"\nInforme o membro: ";
+  	  	cout<<"\nDigite seu nome: ";
+	}	
 }
