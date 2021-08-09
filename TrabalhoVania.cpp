@@ -57,13 +57,13 @@ int main()
 			    {
 					if(Projeto[j]== Projeto[i])
 				    {
-				   	    cout<<"\nconflito de projetos, banca inválida, registre novamente.\n";
+				   	    cout<<"\nconflito de projetos, banca invÃ¡lida, registre novamente.\n";
 				     	i--;
 					}
 				}
 			}
 		}			
-		cout<<"\nquer continuar? \n1-sim \n2-não\n";
+		cout<<"\nquer continuar? \n1-sim \n2-nÃ£o\n";
 		cin>>continuar;	
 		i++;
 	}
